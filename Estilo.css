@@ -1,0 +1,40 @@
+img {
+  display: block;        
+  margin: 0 auto;   
+  max-width: 600px;
+  border-radius: 2em; /* ✅ Solo necesitas uno, así que este reemplaza al de 15px */
+}
+
+body {
+  background-color: #dbc8c8;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ }
+
+main {
+  max-width: 600px;
+  margin: 0 auto;       
+  padding: 20px;
+  text-align: justify;   
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px; /* ✅ Bien aplicado */
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: "young Serif";
+  color: rgb(20, 20, 20);
+}
+
+#prep-time {
+  background-color: #e2d0cb;         /* Color tipo resaltador */
+  padding: 8px 8px;
+  border-radius: 8px;
+  max-width: 600px;
+ 
+
+}
